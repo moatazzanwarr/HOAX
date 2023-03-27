@@ -1,0 +1,139 @@
+
+
+
+/* Start Landing */
+
+.landing{
+    background: url(../images/landing.jpg);
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    height: calc(100vh - 56px);
+    position: relative;
+}
+
+.landing h1{
+    position: absolute;
+    left: 100px;
+    bottom: 50%;
+    padding: 0;
+    margin: 0;
+}
+
+.hello{
+    color: rgb(184, 184, 184);
+    font-size: 25px;
+}
+
+.we{
+    font-size: 60px;
+}
+
+.ax{
+    color: rgb(184, 184, 184);
+}
+
+.creative{
+    color: rgb(184, 184, 184);
+    font-size: 20px;
+    line-height: 0;
+}
+
+.landing .btn{
+    border-radius: 25px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+/* End Landing */
+
+
+/* Start Photos */
+
+.photos h1{
+    margin: 40px;
+    font-size: 30px;
+    position: relative;
+}
+
+.photos h1::after{
+    content: "";
+    height: 2px;
+    width: 30px;
+    background: rgb(184, 184, 184);
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+}
+
+.photos .btn{
+    border-radius: 25px;
+}
+
+.photos .img3{
+    width: 100%;
+    height: 210px;
+}
+
+/* End Photos */
+
+/* Start Interested*/
+
+.interested h1{
+    font-size: 30px;
+}
+
+.interested .p-1{
+    color: rgb(184, 184, 184);
+    font-size: 18px;
+}
+
+.interested .btn{
+    border-radius: 25px;
+}
+
+.interested .a-2{
+    display: block;
+    text-decoration: none;
+    color: rgb(184, 184, 184);
+    font-size: 18px;
+}
+
+/* End Interested*/
+
+/* Start Footer */
+
+footer{
+    background: #000;
+}
+
+footer h1{
+    display: inline;
+    padding: 0 10px;
+    border: 1px solid rgb(184, 184, 184);
+    font-size: 30px;
+}
+
+
+footer h1 span{
+    color: rgb(184, 184, 184);
+}
+
+footer .p-1{
+    font-size: 18px;
+    letter-spacing: 3px;
+    font-weight: 300;
+}
+
+footer .social{
+
+}
+
+footer .social i{
+    color: rgb(184, 184, 184);
+    margin: 0 20px;
+}
+
+/* End Footer */
